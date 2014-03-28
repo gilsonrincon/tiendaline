@@ -405,5 +405,35 @@ footer{
 	width: 100%;
 	background: #474747;
 	padding: 15px 0;
+
 }
+
+.container-footer{
+	width: 24%;
+	display: inline-block;
+	vertical-align:top;
+	text-align: center;
+}
+
+#footer-lists{
+	width: 85%;
+	margin:0px auto; 
+}
+
+.container-footer ul {
+	text-align: left;;
+}
+
+.container-footer li a, .container-footer li {
+	color: #c4c4c4;
+}
+
+.container-footer h5 {
+	color: #c4c4c4;
+	text-align: left;
+}
+ .container-footer .final-list-footer{
+ 	text-align: center;
+ 	font-size: 80%;
+ }
 

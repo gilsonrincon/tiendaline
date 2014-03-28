@@ -68,21 +68,63 @@
 				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="#">Probar Demo</a></p>
 			</div>
 			<footer>
-				<div class="container-footer">
-					<h5>Sobre  TiendaLINE </h5>
-					<ul>
-						<li>
-							<a href="#">Clientes</a>
-						</li>
-						<li>
-							<a href="#">Contacto</a>
-						</li>
-						<li>
-							<a href="#">Pago</a>
-						</li>
-					</ul>
+			    <div id="footer-lists">
+					<div class="container-footer">
+						<h5>Sobre  TiendaLINE </h5>
+						<ul>
+							<li>
+								<a href="#">Clientes</a>
+							</li>
+							<li>
+								<a href="#">Contacto</a>
+							</li>
+							<li>
+								<a href="#">Pago</a>
+							</li>
+						</ul>
+					</div>
+					<div class="container-footer">
+						<h5>Productos</h5>
+						<ul>
+							<li>
+								<a href="#">Planes</a>
+							</li>
+							<li>
+								<a href="#">¿Cómo Funciona?</a>
+							</li>
+						</ul>
+					</div>
+					<div class="container-footer">
+						<h5>Contáctenos</h5>
+						<ul>
+							<li>
+								<a href="mailto://info@tiendaline.com">info@tiendaline.com</a>
+							</li>
+							<li>
+								Tel. (+57 1) 805 0930
+							</li>
+							<li>
+								Cll 79a No. 18 - 41 Of. 204 
+							</li>
+							<li>
+								Medellin, Colombia
+							</li>
+						</ul>
+					</div>
+					<div class="container-footer">
+						
+						<ul class="final-list-footer">
+							<li>
+								<a href="mailto://info@tiendaline.com">
+									{{HTML::image("/img/tienda/logo-footer.png","TiendaLine",array("class"=>"logo-img"))}}
+								</a>
+							</li>
+							<li>
+								 © TiendaLINE - Todos los derechos reservados. 
+							</li>
+						</ul>
+					</div>
 				</div>
-				
 			</footer>
 		</div>
 			
