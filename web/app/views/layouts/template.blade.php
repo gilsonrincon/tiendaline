@@ -60,9 +60,30 @@
 			<section>
 				@yield('banner')
 				<article>
-					
+					@yield('article')
 				</article>
+				@yield('clientes')
 			</section>
+			<div id="invitacion-demo">
+				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="#">Probar Demo</a></p>
+			</div>
+			<footer>
+				<div class="container-footer">
+					<h5>Sobre  TiendaLINE </h5>
+					<ul>
+						<li>
+							<a href="#">Clientes</a>
+						</li>
+						<li>
+							<a href="#">Contacto</a>
+						</li>
+						<li>
+							<a href="#">Pago</a>
+						</li>
+					</ul>
+				</div>
+				
+			</footer>
 		</div>
 			
 	</body>
