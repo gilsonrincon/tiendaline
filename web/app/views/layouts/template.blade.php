@@ -14,12 +14,31 @@
 			{{HTML::style('/css/bootstrap.css')}}
 			{{HTML::style('/css/estilos.css')}}
 
+		<!-- INCORPORAMOS LOS ARCHIVOS JS-->
+			{{HTML::script('/js/jquery-1.10.2.min.js')}}	
+	    
+		<script type="text/javascript">
+           $(document).ready(function(e){
+           		$('.btn-movil').click(function() {
+					/* Act on the event */
+					$('nav').slideToggle('slow');
+				});
+           });
+
+			
+		</script>
+
+
 	</head>
 	<body>
 		<div id="container-page">
 			<header>
 				
 				<div id="container-header">
+					<div class="btn-movil">
+						{{HTML::image("/img/tienda/btn-menu-movil.png","Menu TiendaLine",array("class"=>""))}}
+					</div>
+					
 					<a class="logo" href="/">
 						{{HTML::image("/img/tienda/logo.png","TiendaLine",array("class"=>"logo-img"))}}
 					</a>
@@ -94,7 +113,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="container-footer">
+					<div class="container-footer footer-movil">
 						<h5>Contáctenos</h5>
 						<ul>
 							<li>
@@ -111,9 +130,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="container-footer">
+					<div class="container-footer footer-movil">
 						
-						<ul class="final-list-footer">
+						<ul class="final-list-footer ">
 							<li>
 								<a href="mailto://info@tiendaline.com">
 									{{HTML::image("/img/tienda/logo-footer.png","TiendaLine",array("class"=>"logo-img"))}}
