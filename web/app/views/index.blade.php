@@ -71,11 +71,13 @@
 							<span class="diner">35.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
 						</p>
 					</div>
-					<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 26.900</span> mes</p>	
+					<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 29.900</span> mes</p>	
 				</div>
-				<p style="padding:15px 0 30px">Tu tienda online y tu propio catálogo de productos.</p>
+				<p style="padding:15px 0 30px">
+					Tu propio catálogo Web que te permite mostrar tus productos al mundo entero, permitiendo a los visitantes contactarte para adquirir tus productos.
+				</p>
 			</div>
-			<a class="btn-p1-comprar" href="">COMPRAR</a>
+			<a class="btn-p1-comprar" href="">ADQUIRIR</a>
 		</div>	
 
 		<div id="content-plan">
@@ -88,11 +90,13 @@
 							<span class="diner">74.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
 						</p>
 					</div>
-					<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 26.900</span> mes</p>	
+					<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 64.900</span> mes</p>	
 				</div>
-				<p style="padding:15px 10px 30px">Tienes tu tienda online con tu catalogo mas tu carrito de compras y sistema de pedidos.</p>
+				<p style="padding:55px 10px 30px">
+					Este plan ofrece las características más importantes que te permitirán vender tus productos a través de Internet.
+				</p>
 			</div>
-			<a class="btn-p2-comprar" href="">COMPRAR</a>
+			<a class="btn-p2-comprar" href="">ADQUIRIR</a>
 		</div>	
 
 
@@ -106,13 +110,13 @@
 							<span class="diner">99.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
 						</p>
 					</div>
-					<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 26.900</span> mes</p>	
+					<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 89.900</span> mes</p>	
 				</div>
-				<p style="padding:15px 10px 30px">
-					Tu tienda online, tu catalogo, tu sistema de pedidos, y puedes vender en redes sociales y tener chat en linea para tus clientes.
+				<p style="padding:55px 10px 30px">
+					Este plan te ofrece ventajas adicionales, como lo es tu propia app para Facebook, con lo que podrás llegar a más personas en todo el mundo.
 				</p>
 			</div>
-			<a class="btn-p3-comprar" href="">COMPRAR</a>
+			<a class="btn-p3-comprar" href="">ADQUIRIR</a>
 		</div>	
 
 
@@ -123,7 +127,7 @@
 			</div>
 			<div class="precio" style="padding:40px 0;">
 				<p class="text-personal" style="padding:0px 10px 0px;">
-					Para aquellos que necesitan un plan que se ajuste a sus necesidades de negocio.
+					Si lo que necesitas es un diseño personalizado y funcionalidades específicas adaptadas a los requerimientos de tu negocio, esta es la opción ideal para tí.
 				</p>
 			</div>
 			
@@ -137,7 +141,7 @@
 	</div>
 	<div class="intro-clients-home">
 		{{HTML::image("img/tienda/img-clientes-home.png","",array("class"=>"cliente-home"))}}
-		<p  style="text-align:center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#"> Algunos de Nuestros clientes </a> consectetuer adipisdolor.</p>
+		<p  style="text-align:center;">Estas son algunas de las empresas que ya cuentan con nuestro servicio:</p>
 	</div>
 	@section('clientes')
 		<div id="container-clientes-home">

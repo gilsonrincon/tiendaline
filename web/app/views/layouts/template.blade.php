@@ -88,60 +88,30 @@
 			</div>
 			<footer>
 			    <div id="footer-lists">
-					<div class="container-footer">
-						<h5>Sobre  TiendaLINE </h5>
-						<ul>
-							<li>
-								<a href="#">Clientes</a>
-							</li>
-							<li>
-								<a href="#">Contacto</a>
-							</li>
-							<li>
-								<a href="#">Pago</a>
-							</li>
-						</ul>
-					</div>
-					<div class="container-footer">
-						<h5>Productos</h5>
-						<ul>
-							<li>
-								<a href="#">Planes</a>
-							</li>
-							<li>
-								<a href="#">¿Cómo Funciona?</a>
-							</li>
-						</ul>
-					</div>
 					<div class="container-footer footer-movil">
-						<h5>Contáctenos</h5>
 						<ul>
 							<li>
 								<a href="mailto://info@tiendaline.com">info@tiendaline.com</a>
 							</li>
+							<!--
 							<li>
 								Tel. (+57 1) 805 0930
 							</li>
+
 							<li>
 								Cll 79a No. 18 - 41 Of. 204 
 							</li>
+							-->
 							<li>
 								Medellin, Colombia
-							</li>
-						</ul>
-					</div>
-					<div class="container-footer footer-movil">
-						
-						<ul class="final-list-footer ">
-							<li>
-								<a href="mailto://info@tiendaline.com">
-									{{HTML::image("/img/tienda/logo-footer.png","TiendaLine",array("class"=>"logo-img"))}}
-								</a>
 							</li>
 							<li>
 								 © TiendaLINE - Todos los derechos reservados. 
 							</li>
 						</ul>
+						<p style="color:#c4c4c4; text-align:center; margin-top:20px;">
+							Un servicio desarrollado por <a href="http://swm.com.co" target="_blank" rel="nofollow">Studioweb & Marketing</a>
+						 </p>
 					</div>
 				</div>
 			</footer>

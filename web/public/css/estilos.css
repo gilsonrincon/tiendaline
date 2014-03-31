@@ -472,12 +472,7 @@ footer{
 
 }
 
-.container-footer{
-	width: 24%;
-	display: inline-block;
-	vertical-align:top;
-	text-align: center;
-}
+
 
 #footer-lists{
 	width: 85%;
@@ -485,7 +480,13 @@ footer{
 }
 
 .container-footer ul {
-	text-align: left;;
+	text-align: center;;
+}
+
+.container-footer li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px 1%;
 }
 
 .container-footer li a, .container-footer li {
