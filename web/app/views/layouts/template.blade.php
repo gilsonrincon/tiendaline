@@ -48,7 +48,7 @@
 								<a href="/">INICIO</a>
 							</li>
 							<li>
-								<a href="/">PLANES</a>	
+								<a href="planes">PLANES</a>	
 							</li>
 							<li>
 								<a href="/">CLIENTES</a>

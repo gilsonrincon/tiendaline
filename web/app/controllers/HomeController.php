@@ -24,6 +24,10 @@ class HomeController extends BaseController {
 	{
 		return View::make('index');
 	} 
+	public function planes()
+	{
+		return View::make('planes');
+	} 
 
 
 }

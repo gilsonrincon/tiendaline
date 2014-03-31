@@ -502,6 +502,68 @@ footer{
  	font-size: 80%;
  }
 
+
+/****PLANES***/
+#table-plan {
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+#table-plan tr{
+	width: 15%;
+}
+#table-plan td{
+	text-align:center;
+	padding: 5px 0;
+	border-right: 2px solid #DDDDDD;
+}
+
+
+#table-plan tr:nth-child(2n){
+	background: #FFF;
+}
+
+#table-plan th{
+	text-align: center;
+}
+
+#table-plan .especifications{
+	text-align: left;
+	width: 30%;
+	padding: 5px;
+}
+
+.title-plan-table th{
+	color: #FFF;
+	border-radius:7px;
+	padding: 10px 0; 
+	font-size: 130%;
+}
+.title-plan-table th:nth-child(2){
+	background: #44aaff;
+}
+
+.title-plan-table th:nth-child(3){
+	background: #0787f5;
+}
+
+.title-plan-table th:nth-child(4){
+	background: #046ec4;
+}
+
+
+#container-planp-planes{
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+}
+
+#container-planp-planes .plan-personalizado{
+	width: 100%;
+}
+
+
+
 /****LO QUE NO SE MUESTRA EN LA VERSION NORMAL****/
 
 .btn-movil, .container-banner-movil{

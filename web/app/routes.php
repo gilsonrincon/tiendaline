@@ -17,3 +17,4 @@
 });
 */
 Route::get('/','HomeController@index');
+Route::get('planes','HomeController@planes');
