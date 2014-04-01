@@ -23,3 +23,4 @@ Route::get('beneficios','HomeController@beneficios');
 Route::get('preguntas','HomeController@preguntas');
 Route::get('pagos','HomeController@pagos');
 Route::get('contacto','HomeController@contacto');
+Route::get('formulariodemo','HomeController@formulariodemo');

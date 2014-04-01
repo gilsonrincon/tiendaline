@@ -85,7 +85,7 @@
 				@yield('pagos')
 			</section>
 			<div id="invitacion-demo">
-				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="#">Probar Demo</a></p>
+				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="formulariodemo">Probar Demo</a></p>
 			</div>
 			<footer>
 			    <div id="footer-lists">

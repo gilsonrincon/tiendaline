@@ -664,7 +664,7 @@ footer{
 	position: relative;
 
 }
-.formulario input, .formulario textarea{
+.formulario input, .formulario textarea, .formulario select{
 	width: 25%;
 	height: 35px;
 	border:none;
@@ -712,6 +712,54 @@ footer{
 .img-pagos{
 	display: block;
 	margin: 20px auto;
+}
+
+
+/****FORMULARIO DEMO***/
+.content-formulario-demo{
+	width: 70%;
+	margin: 0px auto;
+}
+
+.container-left-fd, .container-right-fd {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+.container-left-fd, .container-right-fd {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+	text-align: center;
+}
+.content-formulario-demo .formulario{
+	text-align: left;
+}
+
+.content-formulario-demo .formulario input, .content-formulario-demo .formulario textarea, .content-formulario-demo .formulario select{
+	width: 85%;
+	margin:5px 0; 
+}
+.container-final-fd{
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+.termines{
+	width: 10% !important;
+	height: auto !important ;
+}
+
+.btn-demo{
+	display: block;
+	margin: 20px auto;
+	background: #ff9500;
+	color: #FFF;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
 }
 
 /****LO QUE NO SE MUESTRA EN LA VERSION NORMAL****/

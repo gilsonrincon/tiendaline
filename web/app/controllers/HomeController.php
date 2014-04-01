@@ -48,5 +48,9 @@ class HomeController extends BaseController {
 	{
 		return View::make('contacto');
 	}
+	public function formulariodemo()
+	{
+		return View::make('formulariodemo');
+	}
 
 }
