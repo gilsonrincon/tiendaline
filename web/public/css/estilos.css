@@ -692,6 +692,28 @@ footer{
 }
 
 
+/*****MEDIOS DE PAGO***/
+#container-pagos{
+	background: #FFF;
+	box-shadow: 5px 5xp 2px #888;
+
+}
+
+.content-pagos{
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+.content-pagos p{
+	color: #777777;
+	font-size: 100%;
+}
+
+.img-pagos{
+	display: block;
+	margin: 20px auto;
+}
+
 /****LO QUE NO SE MUESTRA EN LA VERSION NORMAL****/
 
 .btn-movil, .container-banner-movil{

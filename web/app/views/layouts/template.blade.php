@@ -82,6 +82,7 @@
 					@yield('article')
 				</article>
 				@yield('clientes')
+				@yield('pagos')
 			</section>
 			<div id="invitacion-demo">
 				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="#">Probar Demo</a></p>
