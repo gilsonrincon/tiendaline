@@ -51,7 +51,7 @@
 								<a href="planes">PLANES</a>	
 							</li>
 							<li>
-								<a href="/">CLIENTES</a>
+								<a href="clientes">CLIENTES</a>
 							</li>
 							<li>
 								<a href="/">¿COMO FUNCIONA?</a>

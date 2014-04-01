@@ -28,6 +28,9 @@ class HomeController extends BaseController {
 	{
 		return View::make('planes');
 	} 
-
+	public function clientes()
+	{
+		return View::make('clientes');
+	}
 
 }

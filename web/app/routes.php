@@ -18,3 +18,4 @@
 */
 Route::get('/','HomeController@index');
 Route::get('planes','HomeController@planes');
+Route::get('clientes','HomeController@clientes');

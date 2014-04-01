@@ -398,7 +398,7 @@ article{
 
 }
 
-.container-sobre{
+.container-sobre, #container-clientes .container-sobre{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -406,6 +406,7 @@ article{
 	width: 100%;
 	opacity: 0;
 	transition: all 0.7s ease 0s;
+	height: 90%;
 }
 
 .container-sobre p{
@@ -581,6 +582,14 @@ footer{
 .btn-plan-list:hover{
 	color: #FFF;
 	opacity: 0.8;
+}
+
+
+/*****CLIENTES*****/
+.clientes-list-p ul li{
+	width: 23% !important;
+	margin: 30px 3% !important;
+
 }
 
 /****LO QUE NO SE MUESTRA EN LA VERSION NORMAL****/
