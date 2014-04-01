@@ -665,7 +665,7 @@ footer{
 
 }
 .formulario input, .formulario textarea{
-	width: 20%;
+	width: 25%;
 	height: 35px;
 	border:none;
 	border-bottom: 1px solid #c8c8c8;
@@ -679,7 +679,7 @@ footer{
 }
 
 .btn-enviar-p{
-	/*display: block;*/
+	display: block;
 	width: 8%;
 	background: #7c7c7c;
 	color: #FFF;
