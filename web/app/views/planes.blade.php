@@ -8,45 +8,43 @@
 	<div id="table-plan">
 	 	<table>
 	 		<tr class="title-plan-table">
-	              <th></th> 		
+	              <th style="border-bottom:none;"></th> 		
 				  <th>Plan 1</th>
 				  <th>Plan 2</th>
 				  <th>Plan 3</th>
 
 			</tr>
 			<tr>
-	              <th style="text-align:left; background:#f2f2f2;" >Especificaciones</th> 		
+	             <th style=" color:#7c7c7c; font-size:120%;" >Especificaciones</th> 		
 				 <th>
 					 <div class="precio">
-						<div class="content-precio">
-							<span class="simbol">$</span>
+						<div class="content-precio " style="width:100%;">
 							<p class="diner-s"> 
-								<span class="diner">35.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
+								$<span class="diner">35.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
 							</p>
 						</div>
-						<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 29.900</span> mes</p>	
+						<p class="text-anticipo" style="font-size:75%;">O pagando el año anticipado <span style="color:#ff6800;">$ 29.900</span> mes</p>	
 					</div>
 				</th>
 				<th>
 					<div class="precio">
-						<div class="content-precio">
-							<span class="simbol">$</span>
+						<div class="content-precio" style="width:100%;">
+							
 							<p class="diner-s"> 
-								<span class="diner">74.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
+								$<span class="diner">74.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
 							</p>
 						</div>
-						<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 64.900</span> mes</p>	
+						<p class="text-anticipo" style="font-size:75%;">O pagando el año anticipado <span style="color:#ff6800;">$ 64.900</span> mes</p>	
 					</div>
 				</th>
 				 <th>
 					<div class="precio">
-						<div class="content-precio">
-							<span class="simbol">$</span>
+						<div class="content-precio" style="width:100%;">
 							<p class="diner-s"> 
-								<span class="diner">99.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
+								$<span class="diner">99.<span style="font-size:60%; font-weight:normal;">900</span></span>/Mes
 							</p>
 						</div>
-						<p class="text-anticipo">O pagando el año anticipado <span style="color:#ff6800;">$ 89.900</span> mes</p>	
+						<p class="text-anticipo"style="font-size:75%;">O pagando el año anticipado <span style="color:#ff6800;">$ 89.900</span> mes</p>	
 					</div>
 				 </th>
 
@@ -162,6 +160,13 @@
 				  <td>{{HTML::image("img/tienda/no.png","Si",array("class"=>""))}}</td>
 				  <td>{{HTML::image("img/tienda/yes.png","Si",array("class"=>""))}}</td>
 			</tr>
+
+			<tr>
+				  <td scope="row" style="border:none;"></td>
+				  <td style="border:none;"><a class="btn-plan-list" href="">ADQUIRIR</a></td>
+				  <td style="border:none;"><a class="btn-plan-list" href="">ADQUIRIR</a></td>
+				  <td style="border:none;"><a class="btn-plan-list" href="">ADQUIRIR</a></td>
+			</tr>
  				
 	 	</table>
 
@@ -183,4 +188,16 @@
 				</div>	
 		</div>
 	</div>
+	<div class="general-plan">
+		<p>Todos nuestros planes cuentan con las siguientes características:</p>
+		<ul>
+			<li>Acceso a panel administrativo para configurar la tienda</li>
+			<li>Posibilidad de configurar algunos aspectos visuales, tales como colores y fuentes</li>
+			<li>Posibilidad de seleccionar otra plantilla, esto según la disponibilidad y compatibilidad de cada plan</li>
+		</ul>
+	</div>
+	
+	
+
+
 @stop

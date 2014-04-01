@@ -343,7 +343,7 @@ article{
 	text-align: center; 
 }
 
-#content-plan  a{
+#content-plan  a, .btn-plan-list{
 	padding: 10px 0;
 	color: #FFF; 
 	background: rgb(244,166,4); /* Old browsers */
@@ -362,6 +362,8 @@ article{
 	margin:15px auto; 
 	text-align: center;
 }
+
+
 
 .btn-p1-comprar{
 	margin-top: 53px !important;
@@ -517,7 +519,10 @@ footer{
 	padding: 5px 0;
 	border-right: 2px solid #DDDDDD;
 }
-
+#table-plan th{
+	border-right: 2px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+}
 
 #table-plan tr:nth-child(2n){
 	background: #FFF;
@@ -562,7 +567,21 @@ footer{
 	width: 100%;
 }
 
+.general-plan{
+	font-size: 120%;
+	margin:50px auto; 
+	text-align: center;
+}
 
+.general-plan ul{
+	list-style: url(../img/tienda/yes.png);
+}
+
+
+.btn-plan-list:hover{
+	color: #FFF;
+	opacity: 0.8;
+}
 
 /****LO QUE NO SE MUESTRA EN LA VERSION NORMAL****/
 
@@ -599,6 +618,7 @@ footer{
  		vertical-align: top;
  		width: 30%;
  		position: relative;
+ 		top: 10px;
 
  	}
 
