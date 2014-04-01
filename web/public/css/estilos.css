@@ -592,6 +592,42 @@ footer{
 
 }
 
+
+/****BENEFICIOS****/
+.list-beneficios {
+	 width: 90%;
+	 margin: 0px auto; 
+}
+
+.list-beneficios li{
+	width: 32.5%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #DDDDDD;
+	height: 150px;
+	padding: 0 10px 0;
+
+}
+
+.list-beneficios li:nth-child(2){
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+.list-beneficios li h3{
+	font-weight: bold;
+	font-size: 125%;
+
+}
+
+.list-beneficios li p{
+	font-size: 85%;
+
+
+}
+
+
+
 /****LO QUE NO SE MUESTRA EN LA VERSION NORMAL****/
 
 .btn-movil, .container-banner-movil{

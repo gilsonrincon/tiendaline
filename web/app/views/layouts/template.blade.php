@@ -54,7 +54,7 @@
 								<a href="clientes">CLIENTES</a>
 							</li>
 							<li>
-								<a href="/">¿COMO FUNCIONA?</a>
+								<a href="beneficios">¿COMO FUNCIONA?</a>
 							</li>
 							<li>
 								<a href="/">FAQ</a>

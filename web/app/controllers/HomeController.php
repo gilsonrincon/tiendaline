@@ -32,5 +32,9 @@ class HomeController extends BaseController {
 	{
 		return View::make('clientes');
 	}
+	public function beneficios()
+	{
+		return View::make('beneficios');
+	}
 
 }
