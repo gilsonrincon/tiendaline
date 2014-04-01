@@ -44,25 +44,25 @@
 					</a>
 					<nav>
 						<ul>
-							<li>
-								<a href="/">INICIO</a>
+							<li class="btn-one">
+								<a  href="/">INICIO</a>
 							</li>
-							<li>
+							<li class="btn-two">
 								<a href="planes">PLANES</a>	
 							</li>
-							<li>
+							<li class="btn-three">
 								<a href="clientes">CLIENTES</a>
 							</li>
-							<li>
+							<li class="btn-four">
 								<a href="beneficios">¿COMO FUNCIONA?</a>
 							</li>
-							<li>
+							<li class="btn-five">
 								<a href="preguntas">FAQ</a>
 							</li>
-							<li>
+							<li class="btn-six">
 								<a href="pagos">PAGOS</a>
 							</li>
-							<li>
+							<li class="btn-seven">
 								<a href="contacto">CONTACTO</a>
 							</li>
 

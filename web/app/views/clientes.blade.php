@@ -4,6 +4,11 @@
 @stop
 
 @section('article')
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-three').addClass('active');
+		});
+	</script>
 	<h2  class="title-plan"><span>Conoce Nuestros</span> CLIENTES</h2>
 	<p class="intro-home-plan">Casos de éxito y testimonios de clientes satisfechos con el servicio de tiendaline</p>
 	<div id="container-clientes-home" class="clientes-list-p" style="background:none;">

@@ -3,6 +3,12 @@
 	COMO FUNCIONA TIENDALINE
 @stop
 @section('article')
+
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-four').addClass('active');
+		});
+	</script>
 	<div class="home-function">
 		<h2 class="title-function">¿<span> Cómo </span> Funciona ?</h2>
 		<ul>

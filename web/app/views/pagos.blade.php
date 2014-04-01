@@ -4,6 +4,11 @@
 @stop
 
 @section('pagos')
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-six').addClass('active');
+		});
+	</script>
 	<h2  class="title-plan"><span> medios de </span> PAGO</h2>
 	<div id="container-pagos">
 		<div class="content-pagos">

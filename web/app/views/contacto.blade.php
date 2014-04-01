@@ -3,6 +3,11 @@
 	CONTACTENOS TIENDALINE
 @stop
 @section('article')
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-seven').addClass('active');
+		});
+	</script>
 	 <h2  class="title-plan"><span> Contacto </span></h2>
 	 <form action="" method="" class="formulario">
 		<input type="text" name="fullName" placeholder="Nombre:" title="Nombre" />

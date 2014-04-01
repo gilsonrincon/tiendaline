@@ -4,6 +4,11 @@
 @stop
 
 @section('article')
+    <script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-five').addClass('active');
+		});
+	</script>
 	<h2  class="title-plan"><span>preguntas</span> FRECUENTES</h2>
 	<ul class="list-questions">
 		<li>
@@ -51,7 +56,7 @@
 		</li>
 		
 	</ul>
-	<h4>REALIZA UNA PREGUNTA</h4>
+	<h4 class="title-questions">REALIZA UNA PREGUNTA</h4>
 
 	<form action="" method="" class="formulario">
 		<input type="text" name="fullName" placeholder="Nombre:" title="Nombre" />

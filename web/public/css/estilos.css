@@ -61,7 +61,7 @@ nav ul li a{
 	font-size: 85%;
 	color: #777777;
 }
-nav ul li a:hover{
+nav ul li a:hover, nav ul li.active a{
 	text-decoration: none;
 	color: #000000;
 }
@@ -575,7 +575,7 @@ footer{
 }
 
 .general-plan ul{
-	list-style: url(../img/tienda/yes.png);
+	
 }
 
 
@@ -773,9 +773,21 @@ footer{
 
 
 	/***LO QUE NO SE VE EN LA VERSION MOVIL****/
-	.container-banner, .home-function ul li p, .intro-home-plan, .intro-clients-home, #container-clientes-home, .container-footer{
+	.container-banner, .home-function ul li p, .intro-home-plan, .intro-clients-home, #container-clientes-home, .container-footer
+	
+	{
 		display: none;
 	}
+	 .no-mobile{
+	 	display: none!important;
+	 }
+
+	 h2{
+	 	font-size: 150%;
+	 	margin: 30px 0 !important;
+	 }
+
+
 
 
  	header{
@@ -957,6 +969,77 @@ footer{
 	}
 
 
+
+
+
+	/***SECCION PLANES****/
+
+	#table-plan, #container-planp-planes {
+	    width: 100%;
+	}
+
+	#content-plan a, .btn-plan-list {
+	    width: 95%;
+	}
+
+	.general-plan{
+		text-align: left;
+	}
+
+
+	/****SECCION CLIENTES***/
+
+	.clientes-list-p{
+		display: block !important;
+	}
+
+	.clientes-list-p ul li {
+	   
+	    width: 70% !important;
+	}
+
+
+	/*****BENEFICIOS*****/
+	.list-beneficios li, .list-questions li {
+	    height: auto;
+	    width: 100%;
+
+	}
+
+	/****PREGUNTAS****/
+	.list-questions li {
+	    border-bottom: none;
+
+	}
+	.list-questions li p{
+	    font-size: 97%;
+	}
+
+
+	.formulario input, .formulario textarea, .formulario select {
+	    width: 80%;
+	}
+
+	.title-questions{
+		text-align: center;
+		font-size: 120%;
+		margin: 20px 0;
+	}
+
+	.btn-enviar-p {
+	    width: 30%;
+	}
+
+	.content-pagos {
+	    text-align: justify;
+	    width: 95%;
+	}
+
+	/***FORMULARIO DEMO****/
+	.content-formulario-demo,.container-left-fd, .container-right-fd, .container-final-fd {
+	    width: 100%;
+	}
+
  }
 
 /****VERSION TABLET****/
@@ -1002,6 +1085,32 @@ footer{
 
 	}
 
+    #invitacion-demo a {
+	    display: block;
+	    margin: 10px auto;
+	    width: 30%;
+	}
+
+	#table-plan {
+	    width: 100%;
+	}
+
+	#container-planp-planes {
+	    display: block;
+	    margin: 0 auto;
+	    width: 50%;
+	}
+
+	.list-beneficios li, .list-questions li {
+	    border: none !important;
+	    width: 49%;
+	    height: auto;
+	}
+
+	.content-pagos {
+	    width: 90%;
+	}
+	}
 
 
 }

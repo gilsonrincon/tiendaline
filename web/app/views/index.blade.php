@@ -5,6 +5,11 @@
 @stop
 
 @section('banner')
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-one').addClass('active');
+		});
+	</script>
 	<div class="container-banner">
 		{{HTML::image("/img/tienda/bannerhome.jpg","bannner TiendaLine",array("class"=>""))}}
 		<div class="content-banner-home">

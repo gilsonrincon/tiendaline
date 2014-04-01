@@ -3,6 +3,11 @@
  PLANES TIENDALINE
 @stop
 @section('article')
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$('.btn-two').addClass('active');
+		});
+	</script>
 	<h2  class="title-plan"><span>Conoce Nuestros</span> PLANES</h2>
 	<p class="intro-home-plan">Contamos con 4 planes que se adaptan a las necesidades de nuestros clientes</p>
 	<div id="table-plan">
@@ -14,7 +19,7 @@
 				  <th>Plan 3</th>
 
 			</tr>
-			<tr>
+			<tr class="no-mobile">
 	             <th style=" color:#7c7c7c; font-size:120%;" >Especificaciones</th> 		
 				 <th>
 					 <div class="precio">
@@ -191,9 +196,18 @@
 	<div class="general-plan">
 		<p>Todos nuestros planes cuentan con las siguientes características:</p>
 		<ul>
-			<li>Acceso a panel administrativo para configurar la tienda</li>
-			<li>Posibilidad de configurar algunos aspectos visuales, tales como colores y fuentes</li>
-			<li>Posibilidad de seleccionar otra plantilla, esto según la disponibilidad y compatibilidad de cada plan</li>
+			<li>
+				<span>{{HTML::image("img/tienda/yes.png","Si",array("class"=>""))}}</span>
+				Acceso a panel administrativo para configurar la tienda
+			</li>
+			<li>
+				<span>{{HTML::image("img/tienda/yes.png","Si",array("class"=>""))}}</span>
+				Posibilidad de configurar algunos aspectos visuales, tales como colores y fuentes
+			</li>
+			<li>
+				<span>{{HTML::image("img/tienda/yes.png","Si",array("class"=>""))}}</span>
+				Posibilidad de seleccionar otra plantilla, esto según la disponibilidad y compatibilidad de cada plan
+			</li>
 		</ul>
 	</div>
 	
