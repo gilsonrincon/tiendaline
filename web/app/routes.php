@@ -20,3 +20,6 @@ Route::get('/','HomeController@index');
 Route::get('planes','HomeController@planes');
 Route::get('clientes','HomeController@clientes');
 Route::get('beneficios','HomeController@beneficios');
+Route::get('preguntas','HomeController@preguntas');
+Route::get('pagos','HomeController@pagos');
+Route::get('contacto','HomeController@contacto');

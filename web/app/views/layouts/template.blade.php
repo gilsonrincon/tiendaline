@@ -57,13 +57,13 @@
 								<a href="beneficios">¿COMO FUNCIONA?</a>
 							</li>
 							<li>
-								<a href="/">FAQ</a>
+								<a href="preguntas">FAQ</a>
 							</li>
 							<li>
-								<a href="/">PAGOS</a>
+								<a href="pagos">PAGOS</a>
 							</li>
 							<li>
-								<a href="/">CONTACTO</a>
+								<a href="contacto">CONTACTO</a>
 							</li>
 
 						</ul>
