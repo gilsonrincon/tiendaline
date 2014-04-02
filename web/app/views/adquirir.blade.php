@@ -1,11 +1,11 @@
 @extends('layouts.template')
 @section('title')
-	PROBAR TIENDA DEMO TIENDALINE
+	ADQUIRIR PLAN  TIENDALINE
 @stop
 @section('article')
-	 <h2  class="title-plan"><span> Prueba nuestra tienda demo </span></h2>
+	 <h2  class="title-plan"><span> Comienza a vender tus productos</span></h2>
      <div class="content-formulario-demo">
-     		{{HTML::image("/img/tienda/titulo-demo.png","demo",array("class"=>""))}}
+     		{{HTML::image("/img/tienda/titulo-planes.png","demo",array("class"=>""))}}
      		<form action="" method="" class="formulario">
 
      		    <div class="container-left-fd">
@@ -35,15 +35,13 @@
      		     	<input type="text" name="city" placeholder="Nombre de la tienda:" title="Nombre de la tienda" />
      		     	<input type="email" name="email" placeholder="Correo Electrónico:" title="Correo" />
      		     	<input type="password" name="password" placeholder="Contraseña:" title="Contraseña"  />
-                         
-                         <iframe class="video-tiendaline" width="80%" height="200" src="//www.youtube.com/embed/atWY7AiTcaw?rel=0" frameborder="0" allowfullscreen></iframe>
      		    </div>
 
      		    <div class="container-final-fd">
      		    	<div class="termines-content" style="text-align:center; color:#5e5e5e;">
 			        	Acepto Términos de Uso<input type="checkbox" name="terminesofuse" class="termines">
 			        </div>	
-					<button class="btn-demo" type="submit">PROBAR</button>
+					<button class="btn-demo" type="submit">ENVIAR</button>
 				</div>
 				
 			</form>

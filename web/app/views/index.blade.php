@@ -82,7 +82,7 @@
 					Tu propio catálogo Web que te permite mostrar tus productos al mundo entero, permitiendo a los visitantes contactarte para adquirir tus productos.
 				</p>
 			</div>
-			<a class="btn-p1-comprar" href="">ADQUIRIR</a>
+			<a class="btn-p1-comprar" href="/adquirir?plan=1">ADQUIRIR</a>
 		</div>	
 
 		<div id="content-plan">
@@ -101,7 +101,7 @@
 					Este plan ofrece las características más importantes que te permitirán vender tus productos a través de Internet.
 				</p>
 			</div>
-			<a class="btn-p2-comprar" href="">ADQUIRIR</a>
+			<a class="btn-p2-comprar" href="/adquirir?plan=2">ADQUIRIR</a>
 		</div>	
 
 
@@ -121,7 +121,7 @@
 					Este plan te ofrece ventajas adicionales, como lo es tu propia app para Facebook, con lo que podrás llegar a más personas en todo el mundo.
 				</p>
 			</div>
-			<a class="btn-p3-comprar" href="">ADQUIRIR</a>
+			<a class="btn-p3-comprar" href="/adquirir?plan=3">ADQUIRIR</a>
 		</div>	
 
 
@@ -137,7 +137,7 @@
 			</div>
 			
 			<div class="precio" style="padding:30px 0; border-top:none;">
-					<a class="btn-contact-home" href="">CONTACTAR</a>
+					<a class="btn-contact-home" href="/contacto">CONTACTAR</a>
 			</div>	
 		</div>
 

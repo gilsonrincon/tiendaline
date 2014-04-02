@@ -773,8 +773,8 @@ footer{
 
 
 	/***LO QUE NO SE VE EN LA VERSION MOVIL****/
-	.container-banner, .home-function ul li p, .intro-home-plan, .intro-clients-home, #container-clientes-home, .container-footer
-	
+	.container-banner, .home-function ul li p, .intro-home-plan, .intro-clients-home, #container-clientes-home, .container-footer,
+	.video-tiendaline
 	{
 		display: none;
 	}

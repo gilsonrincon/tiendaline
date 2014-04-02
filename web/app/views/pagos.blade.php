@@ -9,7 +9,7 @@
 			$('.btn-six').addClass('active');
 		});
 	</script>
-	<h2  class="title-plan"><span> medios de </span> PAGO</h2>
+	<h2  class="title-plan"><span> Medios de </span> PAGO</h2>
 	<div id="container-pagos">
 		<div class="content-pagos">
 			<p>

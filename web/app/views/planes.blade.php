@@ -168,9 +168,9 @@
 
 			<tr>
 				  <td scope="row" style="border:none;"></td>
-				  <td style="border:none;"><a class="btn-plan-list" href="">ADQUIRIR</a></td>
-				  <td style="border:none;"><a class="btn-plan-list" href="">ADQUIRIR</a></td>
-				  <td style="border:none;"><a class="btn-plan-list" href="">ADQUIRIR</a></td>
+				  <td style="border:none;"><a class="btn-plan-list" href="/adquirir?plan=1">ADQUIRIR</a></td>
+				  <td style="border:none;"><a class="btn-plan-list" href="/adquirir?plan=2">ADQUIRIR</a></td>
+				  <td style="border:none;"><a class="btn-plan-list" href="/adquirir?plan=3">ADQUIRIR</a></td>
 			</tr>
  				
 	 	</table>

@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<meta name="description" content=""/>
-		<meta name="keywords" content="" />
+		<meta name="description" content="tiendaline te ofrecemos planes para que puedas mostrar y vender los productos que desees"/>
+		<meta name="keywords" content="tiendas virtuales, tiendaline, vender" />
 		<meta name="robots" content="INDEX, FOLLOW">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">

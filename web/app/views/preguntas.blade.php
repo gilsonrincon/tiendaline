@@ -9,7 +9,7 @@
 			$('.btn-five').addClass('active');
 		});
 	</script>
-	<h2  class="title-plan"><span>preguntas</span> FRECUENTES</h2>
+	<h2  class="title-plan"><span>Preguntas</span> FRECUENTES</h2>
 	<ul class="list-questions">
 		<li>
 			<h3>¿Puedo recibir pagos con tarjetas de crédito a través de mi tienda virtual?</h3>
