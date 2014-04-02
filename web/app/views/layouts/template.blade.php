@@ -45,32 +45,33 @@
 					<nav>
 						<ul>
 							<li class="btn-one">
-								<a  href="/">INICIO</a>
+								{{HTML::link("/","INICIO",array("class"=>""))}}
 							</li>
 							<li class="btn-two">
-								<a href="/planes">PLANES</a>	
+									
+								{{HTML::link("/planes","PLANES",array("class"=>""))}}
 							</li>
 							<li class="btn-three">
-								<a href="/clientes">CLIENTES</a>
+								{{HTML::link("/clientes","CLIENTES",array("class"=>""))}}
 							</li>
 							<li class="btn-four">
-								<a href="/beneficios">¿COMO FUNCIONA?</a>
+								{{HTML::link("/beneficios","¿CÓMO FUNCIONA?",array("class"=>""))}}
 							</li>
 							<li class="btn-five">
-								<a href="/preguntas">FAQ</a>
+								{{HTML::link("/preguntas","FAQ",array("class"=>""))}}
 							</li>
 							<li class="btn-six">
-								<a href="/pagos">PAGOS</a>
+								{{HTML::link("/pagos","PAGOS",array("class"=>""))}}
 							</li>
 							<li class="btn-seven">
-								<a href="/contacto">CONTACTO</a>
+								{{HTML::link("/contacto","CONTACTO",array("class"=>""))}}
 							</li>
 
 						</ul>
 					</nav>
-					<button class="btn-mitienda">
+					<a href="" class="btn-mitienda">
 						MI TIENDA
-					</button>
+					</a>
 						
 					
 				</div>

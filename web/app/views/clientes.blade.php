@@ -14,49 +14,49 @@
 	<div id="container-clientes-home" class="clientes-list-p" style="background:none;">
 			<ul>
 				<li>
-					<a href="">
+					<a href="http://vibramfivefingers.com.co"  target="_blank">
 						{{HTML::image("img/tienda/cliente-vibram.png","",array("class"=>"cliente-home"))}}
 						<div class="container-sobre">
 							<p>VISITAR <br/> TIENDA</p>
 						</div>
 					</a>
-					<a href="#" class="client">Vibram</a>
+					<a href="http://vibramfivefingers.com.co" class="client" target="_blank">Vibram</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://outletoptico.com" target="_blank">
 						{{HTML::image("img/tienda/cliente-outlet.png","",array("class"=>"cliente-home"))}}
 						<div class="container-sobre">
 							<p>VISITAR <br/> TIENDA</p>
 						</div>
 					</a>
-					<a href="#" class="client">Outlet Optico</a>
+					<a href="http://outletoptico.com" target="_blank" class="client">Outlet Optico</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://canaimaadventure.com" target="_blank">
 						{{HTML::image("img/tienda/cliente-canaima.png","",array("class"=>"cliente-home"))}}
 						<div class="container-sobre">
 							<p>VISITAR <br/> TIENDA</p>
 						</div>
 					</a>
-					<a href="#" class="client">Canaima Adventure</a>
+					<a href="http://canaimaadventure.com" target="_blank" class="client">Canaima Adventure</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://areavial.com" target="_blank">
 						{{HTML::image("img/tienda/cliente-areavial.png","",array("class"=>"cliente-home"))}}
 						<div class="container-sobre">
 							<p>VISITAR <br/> TIENDA</p>
 						</div>
 					</a>
-					<a href="#" class="client">Area Vial</a>
+					<a href="http://areavial.com" target="_blank" class="client">Area Vial</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://magiafloral.com" target="_blank">
 						{{HTML::image("img/tienda/cliente-magiafloral.png","",array("class"=>"cliente-home"))}}
 						<div class="container-sobre">
 							<p>VISITAR <br/> TIENDA</p>
 						</div>
 					</a>
-					<a href="#" class="client">Magia Floral</a>
+					<a href="http://magiafloral.com" target="_blank" class="client">Magia Floral</a>
 				</li>
 			</ul>
 		</div>
