@@ -48,22 +48,22 @@
 								<a  href="/">INICIO</a>
 							</li>
 							<li class="btn-two">
-								<a href="planes">PLANES</a>	
+								<a href="/planes">PLANES</a>	
 							</li>
 							<li class="btn-three">
-								<a href="clientes">CLIENTES</a>
+								<a href="/clientes">CLIENTES</a>
 							</li>
 							<li class="btn-four">
-								<a href="beneficios">¿COMO FUNCIONA?</a>
+								<a href="/beneficios">¿COMO FUNCIONA?</a>
 							</li>
 							<li class="btn-five">
-								<a href="preguntas">FAQ</a>
+								<a href="/preguntas">FAQ</a>
 							</li>
 							<li class="btn-six">
-								<a href="pagos">PAGOS</a>
+								<a href="/pagos">PAGOS</a>
 							</li>
 							<li class="btn-seven">
-								<a href="contacto">CONTACTO</a>
+								<a href="/contacto">CONTACTO</a>
 							</li>
 
 						</ul>
@@ -85,7 +85,7 @@
 				@yield('pagos')
 			</section>
 			<div id="invitacion-demo">
-				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="formulariodemo">Probar Demo</a></p>
+				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="/formulariodemo">Probar Demo</a></p>
 			</div>
 			<footer>
 			    <div id="footer-lists">
