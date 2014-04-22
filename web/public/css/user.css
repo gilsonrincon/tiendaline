@@ -1,0 +1,227 @@
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#container-page{
+	width: 100%;
+	margin:0px auto;
+	max-width: 1750px;
+}
+
+header{
+	background: #0084AD;
+}
+
+#container-header{
+   margin-left: 8%;
+   padding: 15px 0 0 0 ;
+}
+.logo{
+	display: block;
+}
+
+nav{
+	width: 60%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 5px;
+	border-top: 1px solid #13aec9;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px 20px 0;
+}
+
+nav ul li a{
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+nav ul li a:hover{
+	color: #FFF;
+	opacity: 0.8;	
+}
+
+.info-user-header{
+	width: 38.2%;
+	display: inline-block;
+	vertical-align: top;
+	background: #007793;
+	margin-left: 1%;
+	padding: 15px;
+
+}
+
+.info-user-header p{
+	margin:0px; 
+	color: #FFF;
+	text-transform: uppercase;
+	font-style: italic;
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+.info-user-header p span{
+	margin:0px 5px; 
+}
+
+.btn-close{
+	background: #FFF;
+	color: #2092D1;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 115%;
+}
+
+/*****FOOTER*****/
+
+footer{
+	width: 100%;
+	background: #474747;
+	padding: 15px 0;
+
+}
+
+#footer-lists{
+	width: 85%;
+	margin:0px auto; 
+}
+
+.container-footer ul {
+	text-align: center;;
+}
+
+.container-footer li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px 1%;
+}
+
+.container-footer li a, .container-footer li {
+	color: #c4c4c4;
+}
+
+.container-footer h5 {
+	color: #c4c4c4;
+	text-align: left;
+}
+ .container-footer .final-list-footer{
+ 	text-align: center;
+ 	font-size: 80%;
+ }
+
+ .btn-movil{
+ 	display: none;
+ }
+
+article{
+	width: 90%;
+	margin: 0px auto; 
+
+}
+
+.title-generals{
+	text-align: center;
+	color: #5D5D5D;
+}
+
+/******VERSION MOVIL******/
+
+@media (max-width: 766px){
+
+	#container-header{
+	   margin-left: 0;
+	}
+
+	.logo{
+		width: 30%;
+	}
+
+	nav{
+		display: none;
+		position: absolute;
+		width: 100%;
+		background: #0084AD;
+
+	}
+
+	nav ul li{
+		display: block;
+		padding: 10px;
+		font-weight: normal;
+		font-size: 110%;
+	}
+
+	nav ul li a{
+		font-weight: normal;
+		font-size: 110%;
+	}
+
+
+	.info-user-header {
+		position: absolute;
+	    margin: 0;
+	    right: 0;
+	    top: 0;
+	    width: 69%;
+	}
+	.info-user-header p{
+		width: 100%;
+	}
+	.btn-close {
+	    display: block;
+	    margin: 10px auto 5px;
+	    width: 80%;
+	}
+	.btn-movil{
+		display: block;
+		width: 30%;
+	}
+} 
+
+@media (min-width: 767px) and (max-width: 999px){
+	#container-header{
+   		margin-left: 1%;
+	|}
+
+	nav{
+		width: 70%;
+	}
+	nav ul li{
+		padding: 0 10px;
+
+	}
+
+	.info-user-header{
+		width: 29%;
+		margin: 0%;
+	}
+
+	.info-user-header p{
+		width: 100%;
+		font-size: 80%;
+	}
+	.btn-close{
+		display: block;
+	    margin: 10px auto 0;
+	    width: 60%;
+	}
+}

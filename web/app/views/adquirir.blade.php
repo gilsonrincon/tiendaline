@@ -3,7 +3,7 @@
 	ADQUIRIR PLAN  TIENDALINE
 @stop
 @section('article')
-	 <h2  class="title-plan"><span> Comienza a vender tus productos</span></h2>
+	<h2  class="title-plan"><span> Comienza a vender tus productos</span></h2>
      <div class="content-formulario-demo">
      		{{HTML::image("/img/tienda/titulo-planes.png","demo",array("class"=>""))}}
      		<form action="" method="" class="formulario">

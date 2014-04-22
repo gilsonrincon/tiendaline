@@ -58,4 +58,19 @@ class HomeController extends BaseController {
 		return View::make('adquirir');
 	}
 
+    /* INFRESAR A MI TIENDA */
+	public function ingresar()
+	{
+		return View::make('mystore.ingresar');
+	}
+	public function recordar()
+	{
+		return View::make('mystore.recordar');
+	}
+
+	/****USUARIOS MI TIENDA ****/
+	public function datos()
+	{
+		return View::make('mystore.datos');
+	}	
 }

@@ -12,7 +12,9 @@
 		</title>
 		<!-- INCORPORAMOS LOS ARCHIVOS CSS-->
 			{{HTML::style('/css/bootstrap.css')}}
-			{{HTML::style('/css/estilos.css')}}
+			{{HTML::style('/css/user.css')}}
+			{{HTML::style('/css/style.css')}}
+
 
 		<!-- INCORPORAMOS LOS ARCHIVOS JS-->
 			{{HTML::script('/js/jquery-1.10.2.min.js')}}	
@@ -27,67 +29,49 @@
 
 			
 		</script>
-
-
 	</head>
 	<body>
 		<div id="container-page">
 			<header>
-				
 				<div id="container-header">
-					<div class="btn-movil">
-						{{HTML::image("/img/tienda/btn-menu-movil.png","Menu TiendaLine",array("class"=>""))}}
-					</div>
 					
-					<a class="logo" href="/">
-						{{HTML::image("/img/tienda/logo.png","TiendaLine",array("class"=>"logo-img"))}}
+					<a class="logo" href="/datos">
+						{{HTML::image("/img/tienda/logo-blue.png","TiendaLine",array("class"=>"logo-blue"))}}
 					</a>
+					<div class="btn-movil">
+						{{HTML::image("/img/tienda/btn-menu-movil-user.png","Menu TiendaLine",array("class"=>""))}}
+					</div>
 					<nav>
 						<ul>
 							<li class="btn-one">
-								{{HTML::link("/","INICIO",array("class"=>""))}}
+								{{HTML::link("/","Mi Perfil",array("class"=>""))}}
 							</li>
 							<li class="btn-two">
 									
-								{{HTML::link("/planes","PLANES",array("class"=>""))}}
+								{{HTML::link("/planes","Mis Tiendas",array("class"=>""))}}
 							</li>
 							<li class="btn-three">
-								{{HTML::link("/clientes","CLIENTES",array("class"=>""))}}
+								{{HTML::link("/clientes","Videos Tutoriales",array("class"=>""))}}
 							</li>
 							<li class="btn-four">
-								{{HTML::link("/beneficios","¿CÓMO FUNCIONA?",array("class"=>""))}}
+								{{HTML::link("/beneficios","Necesito Ayuda con mi Tienda",array("class"=>""))}}
 							</li>
-							<li class="btn-five">
-								{{HTML::link("/preguntas","FAQ",array("class"=>""))}}
-							</li>
-							<li class="btn-six">
-								{{HTML::link("/pagos","PAGOS",array("class"=>""))}}
-							</li>
-							<li class="btn-seven">
-								{{HTML::link("/contacto","CONTACTO",array("class"=>""))}}
-							</li>
-
 						</ul>
 					</nav>
-					<a href="/ingresar" class="btn-mitienda">
-						MI TIENDA
-					</a>
-						
-					
+					<div class="info-user-header">
+						<p><span>{{HTML::image("/img/tienda/icon-user.png","",array("class"=>""))}}</span> jhonathan velasquez </p>
+						<a class="btn-close" href="/">Cerrar Sesión</a>
+					</div>
 				</div>
 			</header>
 
 			<section>
-				@yield('banner')
 				<article>
 					@yield('article')
 				</article>
 				@yield('clientes')
 				@yield('pagos')
 			</section>
-			<div id="invitacion-demo">
-				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="/formulariodemo">Probar Demo</a></p>
-			</div>
 			<footer>
 			    <div id="footer-lists">
 					<div class="container-footer footer-movil">

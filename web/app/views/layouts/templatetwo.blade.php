@@ -13,6 +13,7 @@
 		<!-- INCORPORAMOS LOS ARCHIVOS CSS-->
 			{{HTML::style('/css/bootstrap.css')}}
 			{{HTML::style('/css/estilos.css')}}
+			{{HTML::style('/css/mitienda.css')}}
 
 		<!-- INCORPORAMOS LOS ARCHIVOS JS-->
 			{{HTML::script('/js/jquery-1.10.2.min.js')}}	
@@ -77,7 +78,7 @@
 				</div>
 			</header>
 
-			<section>
+			<section class="container-section">
 				@yield('banner')
 				<article>
 					@yield('article')
@@ -85,9 +86,6 @@
 				@yield('clientes')
 				@yield('pagos')
 			</section>
-			<div id="invitacion-demo">
-				<p>¿ Esta interesado  en  Adquirir  algunos de nuestros planes ? <span>Pruebe Nuestra tienda demo</span> <a href="/formulariodemo">Probar Demo</a></p>
-			</div>
 			<footer>
 			    <div id="footer-lists">
 					<div class="container-footer footer-movil">

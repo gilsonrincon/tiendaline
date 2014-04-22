@@ -29,3 +29,12 @@ Route::get('contacto','HomeController@contacto');
 
 Route::get('formulariodemo','HomeController@formulariodemo');
 Route::get('adquirir','HomeController@adquirir');
+
+
+/**** INGRESAR A MI TIENDA****/
+
+Route::get('ingresar', 'HomeController@ingresar');
+Route::get('recordar', 'HomeController@recordar');
+
+/****USUARIOS MI TIENDA****/
+Route::get('datos', 'HomeController@datos');
