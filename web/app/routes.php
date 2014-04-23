@@ -37,4 +37,9 @@ Route::get('ingresar', 'HomeController@ingresar');
 Route::get('recordar', 'HomeController@recordar');
 
 /****USUARIOS MI TIENDA****/
+
 Route::get('datos', 'HomeController@datos');
+Route::get('tiendas', 'HomeController@tiendas');
+Route::get('tutoriales', 'HomeController@tutoriales');
+Route::get('ayuda', 'HomeController@ayuda');
+

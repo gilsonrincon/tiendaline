@@ -71,7 +71,7 @@ nav ul li a:hover{
 	color: #FFF;
 	text-transform: uppercase;
 	font-style: italic;
-	width: 60%;
+	width: 70%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -141,11 +141,145 @@ article{
 .title-generals{
 	text-align: center;
 	color: #5D5D5D;
+	margin: 60px 0 40px;
 }
+
+/****INFORMACION DE USUARIO****/
+#container-info-user{
+	width: 35%;
+	margin: 20px auto 50px; 
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#container-info-user p{
+	border-bottom: 1px solid #dddddd; 
+	padding-bottom: 10px;
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+	color: #5D5D5D;
+	margin-bottom: 20px;
+}
+.edit{
+	width: 18%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.edit:hover{
+	opacity: 0.7;
+}
+
+.item{
+	color:#2092D1;
+	
+}
+
+/***** MIS TIENDAS LISTAS*****/
+#list-shop{
+	text-align: center;
+	margin: 50px 0;
+}
+
+#list-shop li{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 10px 1%;
+	
+}
+
+
+#list-shop li a{
+	color: #63BAE5;
+	font-weight: bold;
+	
+}
+
+
+.img-shop{
+	height: 244px;
+	overflow: hidden;
+	width: 177px;
+	margin: 0px auto;
+}
+
+.name-shop{
+	color: #5D5D5D;
+	text-transform: uppercase;
+	font-size: 110%;
+	margin: 10px 0;
+}
+
+.link-admin-shop h4{
+	color: #5D5D5D;
+	font-size: 100%;
+}
+
+
+/*****AYUDA******/
+ #container-help{
+ 	width: 35%;
+ 	margin: 10px auto 50px ;
+ }
+
+
+ #container-help p{
+ 	font-style: italic;
+ 	font-size: 85%;
+ 	color:#0E5666;
+ }
+
+.form-help input, .form-help textarea{
+	width: 98%;
+	background: #EDEDED;
+	color: #5D5D5D;
+	font-weight: bold;
+	border:none;
+	border-bottom: 2px solid #e0e0e0;
+	border-radius: 5px;
+	font-size: 95%;
+	padding: 5px;
+}
+.form-help input{
+	height: 40px;
+	margin:30px 0 20px 0; 
+}
+.form-help textarea{
+	height: 200px;
+}
+
+
+.btn-send-help {
+	background: linear-gradient(to bottom, #15CEFF 0%, #11A9EB 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: medium none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	display: block;
+	padding: 10px 0;
+	width: 25%;
+	margin: 15px 0 15px 73%;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+} 
+
+.btn-send-help:hover{
+	opacity: 0.7;
+}
+
 
 /******VERSION MOVIL******/
 
 @media (max-width: 766px){
+	header{
+		max-height: 153px;
+    	min-height: 100px;
+	}
 
 	#container-header{
 	   margin-left: 0;
@@ -195,9 +329,26 @@ article{
 		display: block;
 		width: 30%;
 	}
+
+	/****INFORMACION DE USUARIO *****/
+	#container-info-user{
+		width: 90%;
+	}
+
+
+	/******* MIS TIENDAS LISTAS ******/
+	#list-shop li{
+		width: 80%;
+		margin: 5px 0;
+	}
+
+	/*****AYUDA*****/
+	#container-help{
+	 	width: 95%;
+	 }
 } 
 
-@media (min-width: 767px) and (max-width: 999px){
+@media (min-width: 767px) and (max-width: 1025px){
 	#container-header{
    		margin-left: 1%;
 	|}
@@ -224,4 +375,14 @@ article{
 	    margin: 10px auto 0;
 	    width: 60%;
 	}
+
+	/****INFORMACION DE USUARIO *****/
+	#container-info-user{
+		width: 60%;
+	}
+
+	/*****AYUDA*****/
+	#container-help{
+	 	width: 50%;
+	 }
 }

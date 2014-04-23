@@ -44,17 +44,17 @@
 					<nav>
 						<ul>
 							<li class="btn-one">
-								{{HTML::link("/","Mi Perfil",array("class"=>""))}}
+								{{HTML::link("/datos","Mi Perfil",array("class"=>""))}}
 							</li>
 							<li class="btn-two">
 									
-								{{HTML::link("/planes","Mis Tiendas",array("class"=>""))}}
+								{{HTML::link("/tiendas","Mis Tiendas",array("class"=>""))}}
 							</li>
 							<li class="btn-three">
-								{{HTML::link("/clientes","Videos Tutoriales",array("class"=>""))}}
+								{{HTML::link("/tutoriales","Videos Tutoriales",array("class"=>""))}}
 							</li>
 							<li class="btn-four">
-								{{HTML::link("/beneficios","Necesito Ayuda con mi Tienda",array("class"=>""))}}
+								{{HTML::link("/ayuda","Necesito Ayuda con mi Tienda",array("class"=>""))}}
 							</li>
 						</ul>
 					</nav>

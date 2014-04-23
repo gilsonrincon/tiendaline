@@ -72,5 +72,18 @@ class HomeController extends BaseController {
 	public function datos()
 	{
 		return View::make('mystore.datos');
+	}
+
+	public function tiendas()
+	{
+		return View::make('mystore.tiendas');
+	}
+	public function ayuda()
+	{
+		return View::make('mystore.ayuda');
+	}
+	public function tutoriales()
+	{
+		return View::make('mystore.tutoriales');
 	}	
 }
